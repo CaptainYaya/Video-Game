@@ -1,2 +1,3 @@
-# Python-Video-Game
-This is a repository for python games with pygame
+# Python Games
+
+I have created this repository to insert examples of python codes about games with pygame : https://www.pygame.org/docs/ref/pygame.html
