@@ -11,10 +11,10 @@ HAUTEUR_ECRAN = 1200
 fenetre = pygame.display.set_mode((LARGEUR_ECRAN, HAUTEUR_ECRAN))
 pygame.display.set_caption("PACMAN")
 
-joueur_image = pygame.image.load("C:\\Users\\Qadis\\OneDrive\\Documents\\Python Games\\pacman.png").convert_alpha()
+joueur_image = pygame.image.load("pacman.png").convert_alpha()
 joueur_rect = joueur_image.get_rect()
 joueur_rect.topleft = (100, 100)
-pygame.mixer.music.load("C:\\Users\\Qadis\\OneDrive\\Documents\\Python Games\\pacman-music.ogg")
+pygame.mixer.music.load("pacman-music.ogg")
 pygame.mixer.music.play(loops=0)
 
 
